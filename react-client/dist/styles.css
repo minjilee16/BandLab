@@ -2,17 +2,120 @@ body {
   background-color: #282D34;
   color: white;
   text-align: center;
+  font-family: "HelveticaNeue-Light"
+}
+
+audio {
+  margin-top: 4em;
+  margin-left: 1em;
+
+}
+
+.audios-button {
+  width: 30%;
+  background-color: #DC3710;
+  border: none;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6vw;
+  text-align: center;
+  margin-top: 5em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.audios-button:hover {
+  background-color: #00BB9D;
 }
 
 .getdata-button {
-    background-color: #DC3710;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5em;
-    cursor: pointer;
-    border-radius: 10px;
+  width: 30%;
+  background-color: #DC3710;
+  border: none;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6vw;
+  text-align: center;
+  margin: 2.5em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.getdata-button:hover {
+  background-color: #00BB9D;
+}
+
+.bandlab-logo {
+  margin-top: 2em;
+}
+
+.box {
+  width: 60%;
+  background-color: #F1F4F6;
+  padding: 2em;
+  margin: 1em auto;
+  color: #282D34;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.title, .text-body, .userId{
+  margin-top: 10px;
+}
+
+.sort {
+  width: 20%;
+  background-color: #00BB9D;
+  border: none;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin: 0.5em;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.sort:hover {
+  background-color: #DC3710;
+}
+
+.select-group {
+  padding: 1em;
+}
+
+.group-serachbutton {
+  background-color: #DC3710;
+  border: none;
+  color: white;
+  padding: 0.7em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3vw;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.options {
+  width: 10em;
+  height: 3em;
+  padding: 1em;
+  cursor: pointer;
+  background-color: #F1F4F6;
+}
+
+.group-text {
+  padding: 1em;
+  letter-spacing: 1px;
+}
+
+.audios {
+  margin-top: 1em;
+  margin-bottom: 3em;
 }
