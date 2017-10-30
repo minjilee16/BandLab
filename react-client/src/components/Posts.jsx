@@ -79,8 +79,9 @@ class Posts extends React.Component {
     let deletedDuplicateId = userId.filter( (ele, index, self) => { return index === self.indexOf(ele) });
     return (
       <div>
-        <div className="select-group"> Group by userId 
-          <select onChange={this.selectGroup.bind(this)}> 
+        <div className="select-group"> 
+          <span className="group-text">Group by userId </span>
+          <select className="options" onChange={this.selectGroup.bind(this)}> 
           { 
             deletedDuplicateId.map((num, index) => 
             <option key={index} value={num}>{num}</option>)
