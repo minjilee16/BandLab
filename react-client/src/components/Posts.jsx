@@ -75,7 +75,7 @@ class Posts extends React.Component {
       )
     }
     let userId = [];
-    this.props.passData.map((data) => userId.push(data.userId) );
+    this.props.passData.map((data) => userId.push(data.userId));
     let deletedDuplicateId = userId.filter( (ele, index, self) => { return index === self.indexOf(ele) });
     return (
       <div>
@@ -99,6 +99,5 @@ class Posts extends React.Component {
     )
   }
 }
-
 
 export default Posts;
