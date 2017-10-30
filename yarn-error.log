@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add axios
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  7.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "BandLab Coding Challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "react-dev": "webpack -d --watch",
+      "server-dev": "nodemon server/index.js"
+    },
+    "author": "Beth Johnson",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.23.1",
+      "babel-loader": "^6.3.2",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-react": "^6.23.0",
+      "webpack": "^2.2.1"
+    },
+    "dependencies": {
+      "express": "^4.15.0",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "jquery": "^3.1.1",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/minjilee/Desktop/Band/package.json: Unexpected token } in JSON at position 566
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:747:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:91:30)
+      at /usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:102:13
